@@ -67,4 +67,7 @@ var b=[9,10,11,12,13]
 //     return currentValue < 40;
 // }));
 var a = new Array(3).fill(4);
-console.log(a)
+console.log(a);
+var arr = Array(3).fill({}) // [{}, {}, {}];
+arr[0].hi = "hi";
+console.log(arr)
